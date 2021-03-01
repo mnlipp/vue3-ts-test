@@ -16,8 +16,9 @@ export default defineComponent({
     },
     
     setup(props) {
+        let message = props.message;
         let temp: string | null = null; 
-        return {};
+        return { message, temp };
     },
 });
 
